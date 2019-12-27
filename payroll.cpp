@@ -84,7 +84,6 @@ int main()
 			outFile << setw(10) << empId[count] << fixed << showpoint << setprecision(2) << setw(18) << hours[count] << setw(23) << payRate[count] << setw(18) << (wages[count] = hours[count] * payRate[count]) << endl;
 		}
 
-		outFile << "\nProgrammer: " << name;
 
 		outFile.close();
 	}
