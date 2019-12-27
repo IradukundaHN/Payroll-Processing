@@ -92,7 +92,6 @@ int main()
 
 	cout << "\nProgrammer: " << name;
 	cout << "\nProcessing complete.\n";
-	system("pause");
 
 	return 0;
 }
