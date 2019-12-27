@@ -23,7 +23,6 @@ int main()
 	double payRate[NUM] = { 8, 9.25, 10.50, 12, 10.20, 7.50 };
 	double wages[NUM];
 	string fileName;
-	string name = " Hugues Nelson Iradukunda";
 
 	cout << "\t\tPAYROLL PROCESSING" << endl;
 
@@ -90,7 +89,6 @@ int main()
 		outFile.close();
 	}
 
-	cout << "\nProgrammer: " << name;
 	cout << "\nProcessing complete.\n";
 
 	return 0;
